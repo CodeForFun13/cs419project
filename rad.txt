@@ -1,0 +1,149 @@
+Web Project (still coming up with name): Requirements and Analysis Document (rough draft 1.0)
+
+To use this template:
+1.	Replace any red italicized text with your own text. You may remove or add sections as
+needed for your particular projects, but get permission from the Professor.
+2.	Enter the project name in the title and footer (and change the document version number,
+if necessary).
+3.	If your document is very long, break each numbered chapter into its own document
+section, beginning it on a new page. This will make it easier to replace/updagte
+4.	Delete these instructions and any other italicized instructions.
+
+Date(s): 10/30/18 
+
+Prepared by: Trevor Horwath, Conor Kennedy, Omar Salinas, Max Mocilan , Martin Hernandez, 
+
+1. Introduction
+This document contains the system requirements for web server project (name tbd). These requirements have been derived from several sources, including specifications given by the client representative at the initial meeting and current web page/server standards as dictated by the rest of the field.   
+
+1.1 Purpose of This Document
+This document is intended to guide development of web server project (name tbd). It will go through several stages during the course of the project: This first initial draft is meant to provide a rough layout and assist in the earliest stages of development of this project. It will provide a broad idea of the requirments needed to be met by the project and a general overarching purpose of the project that our team can fall back on and keep in mind when developing.  
+
+
+1.2 Scope of the Product
+
+This product will represent an alternative movie streaming service that is competitive with sites such as Amazon, Netflix, and Hulu. The web project will have similar functionality to these competing streaming services but will feature a simpler and more attractive layout/navigation. The product will offer a broad array of movies for streaming/downloading and will possess the functionality for users to easily find and rewatch their favorite movies, as well as explore and find new favorites. Once customers have tried out our service, they will be impressed with the ease of functionality of the service and will continue to renew their membership/use our service. (Boundaries?) 
+
+1.3 Business Case for the Product
+
+This product is required to offer another movie streaming service to the general public. Currently popular streaming services offer cumbersome, inefficient, and overall poor layouts for navigation and this product will look to solve this issue. This product will contribute to the overall goals of our institution by offering the general public a service that they desire, that was designed with their best interests in mind, and that is offered at a fair, reasonable price. Effectively accomplishing all of these goals will contribute to the overall goal of our institution to make money and return a profit via our services.    
+
+1.4 Overview of the Requirements Document
+1.	Provide a movie streaming service competitive with those currently dominating the market (Netflix and Amazon)
+2.	Movies (trailers) need to be playable 
+3.	Simple navigation with an attractive layout for all pages
+4.	Membership options of varying levels with varying benefits
+5.	Movie database includes categories and filters for easy browsing
+6.	Movie database is searchable by title, actor/actress
+7.	Ability to add multiple accounts (3) with unique settings/queues to each membership
+8.	Movie database needs to be browsable by anyone regardless of membership/login status
+9.	Keep track of which movies have been recently watched, favorited, and added to wish list/watch later 
+
+2. General Description
+
+2.1 Product Perspective
+
+We have chosen to develop this prodcut to offer the general public a more user-friendly movie streaming service than the ones offered by the companies currently dominating the field. Customers of these currently existing streaming services desire a better site layout and navigation scheme and this product will seek to offer an opportunity for customers to meet this desire. The primary stakeholders are the clients and our team of programmers is developing the project. All parties involved will benefit from the finished product; customers because they are now able to use the more user-friendly streaming service they were looking for and the corporate side will benefit from increased profits and more customers.    
+
+2.2 Product Functions
+
+Our product is a fully functioning movie streaming service capable of playing movies/trailers and all the bells and whistles typically associated with such a service. While using the product, users will be able to perform a broad array of activities in addition to just downloading/streaming movies, including those involving browsing/searching for movies, account updating, and actions with individual movies. Users will be able to filter and sort the movie databased based on a number of elements such as alphabetical order of title, genre, review rating, and MBAA rating. There will also be a search bar where users can search the movie database by title and actor/actress. In terms of actions associated with their account, members will be able to create/delete/edit different user profiles (up to 3), update their information (such as e-mail, password, payment info, etc…), change their payment method (manual, auto renew), and upgrade or downgrade their membership level. For each individual movie, users will be able to watch them, favorite them, leave a review (if they have watched it), and add it to their “watch later” list. Returning members will be able to login to their account from any page and new members will possess the ability to easily sign-up for a membership. The majority of the site will be navigable for someone without an account so that they are able to see what kind of movies are available and experience firsthand the ease of navigation/browsing. However, the actions involving individual movies, such as playing the movie, leaving a review, or adding any movies to any kind of list/queue will be available only to paying members or users using a free trial period.     
+
+2.3 User Characteristics
+
+The finished product will be used by the average everyday person who desires to stream and download movies. Over the past few years, streaming services have become more popular and in demand than purchasing individual movies and this product looks to take advantage of and further develop this societal trend. Users of the product will have varying levels of a technical background and training, but the majority of them will not have any expertise or experience outside general use of the Internet. It is for this reason that the site layout and navigation must be simple and straightforward for everyone and that the streaming service offers reliability without the need for regular troubleshooting by the user. Obstacles users might encounter are possessing the working technology required to take advantage of the product, including at least one Internet-capabale device, reliable and high-speed Internet to prevent the service from buffering or having to use low quality streams, and a financial method (credit or debit card) to make payments for their membership.      
+
+
+
+2.4 General Constraints
+
+General constraints for this project include Eclipse Photon as the IDE, Apache TomCat for the use of Java servers, and a preconstructed mySql database table called “movies”. 
+
+2.5 Assumptions and Dependencies
+
+Assumptions made about this project include that the finished project would need to be delivered to the general public/client over the Internet. Another assumption was that users would have a reliable and fast enough Internet to be able to stream/download the movies as desired without having to worry about poor quality graphics or buffering. The final assumption that was made was that someone will possess the skills and knowledge to be able to update and manage the “movies” database after the project has been released for use by the general public. 
+
+
+3. Specific Requirements
+This section of the document lists specific requirements for name of project. Requirements are
+divided into the following sections:
+1.	Functional requirements. These are requirements written from the point of view of end
+users, usually expressed in narrative form.
+2.	Non-Functional and System requirements. These are detailed specifications describing
+the functions the system must be capable of doing.
+3.	System Models. These are requirements emphasize the interface requirements and
+relationships among application domain objects and the dynamic nature of individual
+objects (state diagrams) and the dynamic interaction of users with the system and
+between.
+
+3.1 Functional Requirements
+List user requirements here.
+
+3.2 Non-Functional and System Requirements
+List detailed system requirements here. If your system is large, you may wish to break this into
+several subsections.
+
+3.3 System Models
+
+3.3.1 Scenarios
+Show several storyboards or specific kinds of uses of your system. Use this to develop your Use
+Cases of how users interact with the system
+
+3.3.2 Use Cases and Interface Requirements
+
+3.3.2.1 Scenarios and Use Cases
+Show all Use Cases and show interface requirements in this section. Where appropriate
+include screen mockups. If you use mockups, be sure to relate to scenarios and/or Use
+Cases and explain major features or functions with narrative to avoid confusion or
+omission of desired features.
+
+
+3.3.2.2 Summary of Screen Navigation and Screen Mock-ups.
+
+
+Throughout the entire website a search bar and login/my profile page symbol will be visible in the upper right hand corner. The “All the Movies” box in the diagram above represents the entire collection of web pages for each individual movie. Some of the featured movie options will be available via the home page as well. The “Account settings” page will be broken down further to better organize the potential actions that a user might take (for example, separate pages to edit general account information versus to edit payment methods/information).   
+
+3.3.3 Object Model
+These objects are the application domain objects and are not part of the design or
+implementation. The user/client should be able to recognize the objects presented here. You may
+combine the Data Dictionary and Class Diagrams together if appropriate.
+
+3.3.3.1 Data Dictionary
+These are all the abstract data fields needed for your project. They may or may not map to the design and
+implementation fields of your code. 
+
+3.3.3.2 Class/Object Diagrams
+These refer to the application domain objects. Use Class and Object UML diagrams. Label all nodes and
+show the relationships on the arcs. Show aggregation where appropriate and generalization where
+appropriate.
+
+3.3.4 Dynamic Models
+These refer to the application domain objects. Sequence and State Diagrams where appropriate.
+
+4. Appendices
+If you wish to append any documents, do so here. You may wish to include some or all of the
+following:
+•	Personas and scenarios developed for this project
+•	Transcripts of user interviews, observations, or focus groups
+•	Copies of communications which contain user requirements
+•	Original project proposals or other historical documents
+•	Lists of similar projects or products, with notes about how they differ from yours
+•	A list of requirements which were "wish-listed" or marked unfeasible at present
+•	Original screen mockups, if they are relevant
+
+5. Glossary
+Include a glossary of definitions, acronyms, and abbreviations that might be unfamiliar to some
+readers, especially technical terms that may not be understood by end-users or domain-specific
+terms that might not be familiar to developers.
+
+IDE – Integrated development environment 
+
+6. References
+List references and source documents, if any, in this section.
+
+7. Index
+If your document is very large, consider compiling an index to help readers find specific items.
+However, this is not necessary.
+
+ 
+	
