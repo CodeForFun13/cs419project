@@ -12,3 +12,9 @@ img{
   margin: 0 auto;
   width: 50%;
 }
+
+.name{
+  margin: 0 auto;
+  width: 25%;
+  float: left;
+}
